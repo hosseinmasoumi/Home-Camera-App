@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="com.obiscr.chatgpt.settings.EasyCodeState">
+    <option name="projectFiles" value="$PROJECT_DIR$/app/src/androidTest/java/com/example/cctvguard/ExampleInstrumentedTest.kt;D:/AndroidStudio/Project/CCTVGuard/app/src/main/java/com/example/cctvguard/screens/SplashScreen.kt;D:/AndroidStudio/Project/CCTVGuard/app/src/main/java/com/example/cctvguard/ui/theme/Color.kt;D:/AndroidStudio/Project/CCTVGuard/app/src/main/java/com/example/cctvguard/ui/theme/Theme.kt;D:/AndroidStudio/Project/CCTVGuard/app/src/main/java/com/example/cctvguard/ui/theme/Type.kt;D:/AndroidStudio/Project/CCTVGuard/app/src/main/java/com/example/cctvguard/MainActivity.kt;D:/AndroidStudio/Project/CCTVGuard/app/src/test/java/com/example/cctvguard/ExampleUnitTest.kt;D:/AndroidStudio/Project/CCTVGuard/app/build.gradle.kts;D:/AndroidStudio/Project/CCTVGuard/build.gradle.kts;D:/AndroidStudio/Project/CCTVGuard/settings.gradle.kts" />
+  </component>
+</project>
