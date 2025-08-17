@@ -55,7 +55,7 @@ fun SplashScreen() {
         Spacer(Modifier.height(30.dp))
         Button(
             onClick = {
-            // TODO: اینجا کاری که باید انجام بشه
+            // TODO: task Onclick
         }, colors = ButtonDefaults.buttonColors(containerColor = Color.Gray)) {
             Text(
                 "Next page ",
