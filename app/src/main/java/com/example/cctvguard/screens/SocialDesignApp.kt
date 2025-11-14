@@ -26,7 +26,7 @@ fun SocialDesignApp() {
         )
         {
 
-            NavHost(navController = navController, startDestination = "Login") {
+            NavHost(navController = navController, startDestination = "Splash") {
                 composable("Splash") { SplashScreen(navController) }
                 composable("Login") { LoginScreen(navController) }
 

@@ -12,8 +12,8 @@ import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
 import androidx.compose.material3.Button
 import androidx.compose.material3.ButtonDefaults
+import androidx.compose.material3.OutlinedTextField
 import androidx.compose.material3.Text
-import androidx.compose.material3.TextField
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
@@ -61,7 +61,7 @@ fun LoginScreen(navController: NavHostController) {
                     .fillMaxWidth()
                     .offset(0.dp, (-200).dp)
             )
-            TextField(
+            OutlinedTextField(
                 value = email, onValueChange = { newText ->
                     email = newText
                 },
@@ -69,13 +69,13 @@ fun LoginScreen(navController: NavHostController) {
                 placeholder = { Text(text = "Email") }, modifier = Modifier.offset(0.dp, (-130).dp)
             )
             Spacer(modifier = Modifier.height(10.dp))
-            TextField(
+            OutlinedTextField(
                 value = pass,
                 onValueChange = { newText ->
                     pass = newText
                 },
-                label = { Text(text = "Masukan Password") },
-                placeholder = { Text(text = "Email") },
+//                label = { Text(text = " Password") },
+                placeholder = { Text(text = "Password") },
                 modifier = Modifier.offset(0.dp, (-50).dp)
             )
             Button(
