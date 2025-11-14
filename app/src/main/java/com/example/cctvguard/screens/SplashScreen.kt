@@ -18,19 +18,17 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
-// import androidx.compose.ui.graphics.Color // Import removed
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.text.font.FontFamily
 import androidx.compose.ui.text.font.FontStyle
 import androidx.compose.ui.text.font.FontWeight
-import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
+import androidx.navigation.NavHostController
 import com.example.cctvguard.R
 
-@Preview(showBackground = true)
 @Composable
-fun SplashScreen() {
+fun SplashScreen(navController: NavHostController) {
 
     Column(
         modifier = Modifier.fillMaxSize(),
@@ -56,8 +54,8 @@ fun SplashScreen() {
         Spacer(Modifier.height(30.dp))
         Button(
             onClick = {
-            // TODO: task Onclick
-        },
+                navController.navigate("Login")
+            },
             colors = ButtonDefaults.buttonColors(containerColor = MaterialTheme.colorScheme.secondary)
         ) { // Changed Color.Gray
             Text(
@@ -67,4 +65,5 @@ fun SplashScreen() {
             )
         }
     }
+
 }
